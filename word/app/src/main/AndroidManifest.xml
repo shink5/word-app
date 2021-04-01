@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.menu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.logintest.ui.login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.wordsearch.SearchActivity" android:label="Search">
+
+        </activity>
+        <activity android:name=".MainActivity" android:label="Login"></activity>
+        <activity android:name="com.example.gametest.GameActivity"></activity>
+        <activity android:name="com.example.english.ReviewActivity"></activity>
+        <activity android:name="com.example.english.LearnActivity"></activity>
+    </application>
+<!--    !&#45;&#45;声明SD卡读写权限&ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+<!--    添加APP应用的实例-->
+
+</manifest>
