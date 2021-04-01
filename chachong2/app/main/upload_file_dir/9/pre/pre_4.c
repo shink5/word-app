@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+intmain()
+{
+printf("Number:190210501\nSubject:No.2-Program:No.1\n");
+constdoublePI=3.14159;
+doublevar;
+printf("Inputvar:");
+scanf("%lf",&var);
+printf("Area=%f\nVolume=%f\n",PI*var*var*4,PI*var*var*var*4/3);
+return0;
+}

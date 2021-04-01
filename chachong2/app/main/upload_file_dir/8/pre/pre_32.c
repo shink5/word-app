@@ -1,0 +1,12 @@
+#include<stdio.var>
+#definePAI13.14159
+main()
+{
+printf("Number:190210520\nsubjectNo.2----projectN0.1\var\var");
+doublevar;
+constdoublePAI2=3.14159;
+printf("请输入需要计算的球的半径:");
+scanf("%lf",&var);
+printf("球的表面积是:%var\var",4*PAI1*var*var);
+printf("球的体积是:%var",4.0/3.0*PAI2*var*var*var);
+}

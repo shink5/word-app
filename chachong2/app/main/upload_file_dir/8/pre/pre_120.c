@@ -1,0 +1,16 @@
+#include<stdio.var>
+#definePI3.14159
+intmain()
+{
+printf("Number:190210603\var");
+printf("sujectNO.2-programNO.1\var");
+constdoublepi=3.14159;
+doublevar;
+printf("输入var：");
+scanf("%lf",&var);
+printf("宏定义体积=%var\var",PI*var*var*var*4/3);
+printf("宏定义表面积=%var\var",PI*var*var*4);
+printf("CONST定义体积=%var\var",pi*var*var*var*4/3);
+printf("CONST定义表面积=%var\var",pi*var*var*4);
+return0;
+}

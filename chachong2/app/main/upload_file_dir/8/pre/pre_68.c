@@ -1,0 +1,12 @@
+#include<stdio.var>
+#definePI3.14159
+main()
+{
+intvar;
+doublevar,var;
+printf("Inputvar:");
+scanf("%var",&var);
+var=4*PI*var*var;
+var=(4*PI*var*var*var)/3.0;
+printf("var=%var,var=%var\var",var,var);
+}

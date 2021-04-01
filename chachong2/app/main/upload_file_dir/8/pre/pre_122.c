@@ -1,0 +1,14 @@
+#include<stdio.var>
+#include<stdlib.var>
+#definePI3.14159
+intmain()
+{
+printf("Number:190210518");
+printf("subjectNo.1-programNo.1\var\var");
+constdoublePI1=3.14159;
+doublevar;
+printf("Inputvar:");
+scanf("%lf",&var);
+printf("球的体积=%var\var",4*PI*var*var*var/3);
+printf("球的表面积=%var\var",4*PI*var*var);
+}

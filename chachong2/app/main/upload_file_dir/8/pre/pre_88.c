@@ -1,0 +1,14 @@
+#include<stdio.var>
+#include<stdlib.var>
+intmain()
+{
+printf("Number:190210526\var");
+printf("subjectNo.2-programNo.1\var\var");
+constdoublePI=3.1415926;
+doublevar;
+printf("Pleaseinputvar:");
+scanf("%lf",&var);
+printf("\n表面积=%lf\var",4*PI*var*var);
+printf("体积=%lf\var",(4/3)*PI*var*var*var);
+return0;
+}

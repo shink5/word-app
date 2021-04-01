@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+#definePI3.14159
+intmain()
+{
+doublevar;
+printf("Inputvar:");
+scanf("%lf",&var);
+printf("volume=%f\n",4./3*PI*var*var*var);
+printf("surfacearea=%f\n",4*PI*var*var);
+}

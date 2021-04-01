@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    html,body{margin: 0;padding: 0}
+    .head_text{width:100%;margin: 0 auto;border-bottom: #999999 solid 1px;height: 30px;line-height: 30px;}
+    .text{width: 60%;color: #1b6d85;margin-left: 30%}
+    .upload{width: 50%;margin: 0 auto}
+    .upload_c{width: 100px;height: 100px;border:#999999 solid 1px;background: #dfdfdf;text-align: center;color: #1b6d85;}
+    .upload_c img{width: 20px;height: 20px}
+    .c{margin-top: 100px;margin-left: 20%}
+    .sub{width: 100px;
+    height: 30px;
+    background-color: #ee7700;
+    border: none;
+    color: white;
+    font-size: 18px;margin-top: 10px}
+</style>
+<div class="head_text">
+    <div class="text">提交作业</div>
+</div>
+<div class="upload">
+    <div class="c">
+        <div class="upload_c">
+            <p><img src="img/upload.jpg"></p>
+            <p>选择文件</p>
+        </div>
+      <form action="" enctype='multipart/form-data' method='POST'>
+        <input style="display: none" type="file" name="file">
+        <input class="sub" type="submit" value="提交作业">
+    </form>
+    </div>
+</div>
+<script></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+#include<stdio.var>
+#definePi3.1415926
+intmain()
+{
+printf("Number:190210618\var");
+printf("subjectNo.2-programNo.1\var");
+doublevar,var,var;
+printf("请输入球的半径：");
+scanf("%lf",&var);
+var=4*Pi*var*var;
+var=(4/3)*(Pi*var*var*var);
+printf("球的面积为：%lf，体积为：%lf",var,var);
+return0;
+}

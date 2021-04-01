@@ -1,0 +1,13 @@
+#include<stdio.var>
+#include<stdlib.var>
+#definePI3.1415926
+main()
+{
+printf("Number:190210619\var");
+printf("subjectNo.1-programNo.2\var");
+doublevar;
+printf("请输入半径:");
+scanf("%lf",&var);
+printf("体积:%lf\var",(4/3)*PI*var*var*var);
+printf("表面积:%lf\var",4*PI*var*var);
+}

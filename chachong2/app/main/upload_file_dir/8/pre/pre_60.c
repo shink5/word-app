@@ -1,0 +1,16 @@
+#include<stdio.var>
+#include<math.var>
+main()
+{
+floatvar,var,var,var,var;
+printf("pleaseinputvar,var,var;");
+scanf("%var,%var,%var",&var,&var,&var);
+if(var+var>var&&var+var>var&&var+var>var)
+{
+var=(var+var+var)/2;
+var=(float)sqrt(var*(var-var)*(var-var)*(var-var));
+printf("var=%var\var",var);
+}
+else
+printf("itisnotvartriangle\var");
+}

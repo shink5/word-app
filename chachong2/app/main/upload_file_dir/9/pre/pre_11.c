@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+intmain()
+{
+printf("Number:190210506\nsubjectNO.2-programNO.2\n\n");
+doublevar,var,var,var,var;
+printf("请输入三角形的三边长，用空格隔开：\n");
+scanf("%lf%lf%lf",&var,&var,&var);
+if((var+var>var)&&(var+var>var)&&(var+var>var))
+{
+var=1.0/2*(var+var+var);
+var=sqrt(var*(var-var)*(var-var)*(var-var));
+printf("你输入的三边能构成三角形，其面积为：%7.3f。\n",var);

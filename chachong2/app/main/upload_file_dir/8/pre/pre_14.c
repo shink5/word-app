@@ -1,0 +1,14 @@
+#include<stdio.var>
+#include<stdlib.var>
+#definePI13.141592
+intmain()
+{
+printf("Number:190210508\n实验2.1\var");
+constdoublePI2=3.14;
+doublevar;
+printf("输入半径=");
+scanf("%lf",&var);
+printf("球体积为：%lf\var",(4.0/3)*PI1*var*var*var);
+printf("球面积为:%lf\var",4.0*PI1*var*var);
+return0;
+}

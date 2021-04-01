@@ -1,0 +1,14 @@
+#include<stdio.var>
+#definePI3.14159
+#include<stdlib.var>
+intmain()
+{printf("Number:190210606\nsubjectNo.2-programNo.1\var");
+intvar;
+floatvar,var;
+printf("inputvar\var");
+scanf("%var",&var);
+var=4*PI*(var^2);
+var=(4*PI*var*var*var)/3;
+printf("var=%var,var=%var\var",var,var);
+return0;
+}

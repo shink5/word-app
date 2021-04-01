@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<stdlib.h>
+#definePI13.14159
+intmain()
+{
+printf("Number:190210506\nsubjectNO.2-programNO.1\n\n");
+doublevar,var,var;getchar();
+getchar();
+return0;
+}

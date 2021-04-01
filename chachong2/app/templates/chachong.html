@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block page_content %}
+
+
+{% endblock %}
+{% block content %}
+{{ super() }}
+    <div class="alert-info">
+    {{ wtf.quick_form(threshold_form) }}
+    </div>
+    <div class="well well-lg">
+<div class="alert-info"><h2 style="background-color:gold;color: #9C1A1C;font-style: italic">查重结果</h2></div>
+<div class="btn-group">
+<h5>文件目录</h5>
+
+{% for index in indexs %}
+    <span>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">{{ index }}
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+    <li>与此文件相似度高的文件</li>
+    <li class="divider"></li>
+    {% for file in files[xu[index]] %}
+        <li>{{ file }}</li>
+    {% endfor %}
+    </ul>
+</span>
+{% endfor %}
+</div>
+<table class="table table-bordered">
+<caption>作业的相似度矩阵</caption>
+<tr><td></td>
+{% for index in indexs %}
+<th>{{ index }}</th>
+{% endfor %}
+</tr>
+{% for index in indexs %}
+<tr><th>{{ index }}</th>
+   {% for index1 in indexs %}
+       {% if results[index][index1]>yu %}
+   <td style="color:red">{{ results[index][index1] }}</td>
+       {% else %}
+       <td style="color:green">{{ results[index][index1] }}</td>
+       {% endif %}
+   {% endfor %}
+</tr>
+{% endfor %}
+</table></div>
+    <div class="alert alert-success">相似度阈值：{{ yu }}</div>
+    <div class="alert alert-warning">相似度高于阈值的文件为：
+    <ul class="list-inline">
+    {% for i in list %}
+    <li> {{ i }} </li>
+    {% endfor %}
+    </ul>
+    </div>
+        <div class="alert alert-info">{{ wtf.quick_form(file_form) }}</div>
+    {% if flag == 2 %}
+        <div class="alert alert-success">
+            {{ file1name }}和{{ file2name }}的相似度为：{{ result_for_two_files }}
+        </div>
+    {% endif %}
+    {% if flag == 1 %}
+    <div class="alert-danger" style="font-size: large">
+         输入的文件名不存在
+    </div>
+    {% endif %}
+
+{% endblock %}

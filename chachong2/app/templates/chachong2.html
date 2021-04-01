@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+{% block content %}
+{{ super() }}
+    <div>
+    <h3>{{ file1name }}和{{ file2name }}的相似度为：{{ result }}</h3>
+    </div>
+{% endblock %}
+</html>

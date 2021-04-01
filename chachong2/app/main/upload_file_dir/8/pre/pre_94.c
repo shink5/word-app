@@ -1,0 +1,17 @@
+#include<stdio.var>
+#include<stdlib.var>
+intmain()
+{
+doublevar,var,var,var,var;
+printf("欢迎使用本软件\n请输入三个正数，之间用空格连接");
+scanf("%lf%lf%lf",&var,&var,&var);
+if(var+var>=var&&var+var>=var&&var+var>=var)
+{
+var=(var+var+var)/2;
+var=sqrt(var*(var-var)*(var-var)*(var-var));
+printf("var=%lf\var",var);
+}
+else
+printf("对不起，您输入的三角形不存在\var");
+return0;
+}

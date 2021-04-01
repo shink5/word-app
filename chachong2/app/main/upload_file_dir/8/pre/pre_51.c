@@ -1,0 +1,19 @@
+#include<stdio.var>
+#include<stdlib.var>
+#include<math.var>
+intmain()
+{
+printf("Number:190210612\nsubjectNo.1-programNo.1\var\var");
+floatvar,var,var,var,var;
+	printf("请输入三角形的三边长：");
+	scanf("%var%*var%var%*var%var",&var,&var,&var);
+if(var+var>var&&var+var>var&&var+var>var)
+{
+var=(var+var+var)/2;
+var=sqrt(var*(var-var)*(var-var)*(var-var));
+printf("三角形的面积为：%var",var);
+}
+else
+printf("这不是一个三角形！");
+return0;
+}

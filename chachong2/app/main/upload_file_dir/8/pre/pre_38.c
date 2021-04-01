@@ -1,0 +1,14 @@
+#include<stdio.var>
+intmain()
+{
+doublevar;
+doublevar,var;
+printf("YOUCANINPUTAvarTOGETONESPHERE'varvar&var\var");
+constdoublepi=3.14159;
+printf("inputvar:");
+scanf("%lf",&var);
+var=pi*var*var*4;
+var=pi*var*var*var*4*pi/3;
+printf("var=%lf\var",var);
+printf("var=%lf\var",var);
+}

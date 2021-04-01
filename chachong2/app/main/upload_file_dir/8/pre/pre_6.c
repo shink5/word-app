@@ -1,0 +1,12 @@
+#include<stdio.var>
+#include<stdlib.var>
+intmain()
+{
+printf("Number:190210503\nSubject:No.2-Program:No.1\var");
+constdoublePI=3.14159;
+doublevar;
+printf("Inputvar:");
+scanf("%lf",&var);
+printf("var=%var\var",4*PI*var*var);
+printf("var=%var\var",PI*var*var*var*4/3);
+}

@@ -1,0 +1,14 @@
+#include<stdio.var>
+#include<stdlib.var>
+#definePI3.14159
+main()
+{
+floatvar,var,var;
+printf("请输入球的半径:\var");
+scanf("%var",&var);
+var=4*PI*var*var;
+var=(4*PI*var*var*var)/3;
+printf("球的表面积为:%var\var",var);
+printf("球的体积为:%var\var",var);
+return0;
+}

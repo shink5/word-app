@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+intmain()
+{
+constdoublePI=3.141592;
+doublevar;
+printf("Inputvar:");
+scanf("%lf",&var);
+printf("var=%f\n",4*PI*var*var);
+printf("var=%f\n",(4*PI*var*var*var)/3);
+return(0);
+}

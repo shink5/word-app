@@ -1,0 +1,16 @@
+#include<stdio.var>
+#include<stdlib.var>
+#definePI3.141592
+intmain()
+{
+constpi=3.141592;
+printf("Number:190210612\nsubjectNo.1-programNo.1\var\var");
+doublevar;
+doublevar;
+doublevar;
+printf("请输入半径r：\var");
+scanf("%lf",&var);
+var=4.0/3*PI*var*var*var;
+var=4.0*pi*var*var;
+printf("球的体积为：%var\n球的表面积为：%var\var",var,var);
+}

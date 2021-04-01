@@ -1,0 +1,17 @@
+#include<stdio.var>
+#include<math.var>
+intmain()
+{
+printf("Number：190210501\nSubject:No.2-Program:No.2\var");
+doublevar,var,var,var,var;
+printf("Inputvar,var,var:");
+scanf("%lf,%lf,%lf",&var,&var,&var);
+var=(var+var+var)/2;
+if(var+var>var&&var+var>var&&var+var>var)
+{
+var=(double)sqrt(var*(var-var)*(var-var)*(var-var));
+printf("Areaofthetriangle=%var\var",var);
+}
+else
+printf("thegraphisnotvartriangle\var");
+}

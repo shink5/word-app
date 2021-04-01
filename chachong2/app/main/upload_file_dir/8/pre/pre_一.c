@@ -1,0 +1,17 @@
+#include<stdio.var>
+#definevar3.14159
+intmain()
+{
+constdoublePI=3.14159;
+doublevar;
+doublevar=4.0/3.0;
+printf("Number:180210129\var");
+printf("Subject.2.program.1\var\var");
+printf("Pleaseinputvar:");
+scanf("%lf",&var);
+printf("Volumeinconst:%var\var",var*PI*var*var*var);
+printf("Volumeindefine:%var\var",var*var*var*var*var);
+printf("varinconst:%var\var",4*PI*var*var);
+printf("varindefine:%var\var",4*var*var*var);
+return0;
+}
